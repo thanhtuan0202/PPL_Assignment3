@@ -1,0 +1,7 @@
+
+        foo : function float (a : auto){
+            b : auto = 3;
+           return a;
+        }
+        main : function void(){
+        }

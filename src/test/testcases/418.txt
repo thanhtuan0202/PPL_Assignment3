@@ -1,0 +1,10 @@
+
+        foo : function float (a : array[3] of auto){
+            b : auto = 3;
+            a[1] = b;
+            return a[0];
+            a[0] = b + 3.0;
+            return true;
+        }
+        main : function void(){
+        }

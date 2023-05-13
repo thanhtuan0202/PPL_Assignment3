@@ -1,0 +1,11 @@
+
+        fib: function integer(inherit n : integer,m:integer){
+            
+        }
+        foo: function integer() inherit fib{
+            super(1);
+            b : integer = n;
+            
+        }
+        main: function void(){
+            fib(true);}

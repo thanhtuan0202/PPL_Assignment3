@@ -1,0 +1,10 @@
+foo: function void(a : integer, out b : integer){
+                while(a >= 10){
+                    if(b % 2 == 1) b = b * 2;
+                    else b = b + 1;
+                    a = a+ 1;
+                }
+                break;
+            }
+            main: function void(){
+            }

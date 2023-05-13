@@ -1,0 +1,21 @@
+func: function integer(a: integer, b: integer) {
+            if (a == 0) {
+                return b;
+            }
+            while (b != 0) {
+                if (a > b) {
+                    a = a - b;
+                } else {
+                    b = b - a;
+                }
+            }
+            return a;
+        }
+        main: function void(){
+            a,b : integer;
+            a = readInteger();
+            b = readInteger();
+            max = func(a,b);
+            printInteger(max);
+        }
+        

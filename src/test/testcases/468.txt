@@ -1,0 +1,10 @@
+func: function integer(n: integer) {
+                    i = 1;
+                    product = 1;
+                    while (i <= n) {
+                        product = product * i;
+                        i = i + 1;
+                    }
+                    return product;
+                }
+        

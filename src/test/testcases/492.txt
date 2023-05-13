@@ -1,0 +1,14 @@
+
+        foo: function void(a : auto){
+            if(!a){
+                a = 2;
+            }
+        }
+        main: function void(){
+            n : float;
+            {
+                n : boolean;
+            }
+            n = 1;
+            n = 2.0;
+        }

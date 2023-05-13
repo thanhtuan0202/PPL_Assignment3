@@ -1,0 +1,7 @@
+
+        goo :  function void(a : integer){}
+        foo: function void  () inherit goo{
+            a : integer = true;
+        }
+        main: function void(){}
+        

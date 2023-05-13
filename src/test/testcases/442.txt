@@ -1,0 +1,11 @@
+
+        fib: function integer(n : integer,m:integer){
+            
+        }
+        foo: function integer() inherit fib{
+            preventDefault();
+            a : integer = 3;
+            a = true;
+        }
+        main: function void(){
+            fib(true)}

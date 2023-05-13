@@ -1,0 +1,10 @@
+
+        printInteger: function integer(){
+            
+        }
+        main : function void(){
+            a : array[3] of auto = {true,true,false};
+            b : integer = foo();
+            c : boolean = a[1];
+            c = a;
+        }

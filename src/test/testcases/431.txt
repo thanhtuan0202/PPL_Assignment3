@@ -1,0 +1,9 @@
+foo: function void(a : integer, out b : integer){
+                while(a >= 1){
+                    if( b % 2 == 1){ b = b * b;}
+                    a = a + 1;
+                }
+                break;
+            }
+            main: function void(){
+            }

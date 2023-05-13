@@ -1,0 +1,4 @@
+x,y: array[2] of integer;
+        a,b: array[2] of boolean;
+        printInteger: integer ;
+        //main: function void(){}

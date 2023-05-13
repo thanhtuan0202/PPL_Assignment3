@@ -1,0 +1,7 @@
+
+        main: function void(){
+            for( i = 0, i < 3, i +1){
+                printInteger(i);
+            }
+        }
+        

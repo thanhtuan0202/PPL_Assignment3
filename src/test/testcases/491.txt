@@ -1,0 +1,11 @@
+
+        n : integer;
+        main: function void(){
+            n : float;
+            {
+                n : boolean;
+                n = 2;
+            }
+            n = 1;
+            n = 2.0;
+        }

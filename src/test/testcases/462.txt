@@ -1,0 +1,11 @@
+
+        luythua: function integer(n : integer, x : integer){
+            if(n == 1) return x;
+            return x * luythua(n-1,x);
+        }
+        main: function void(){
+            x = readInteger();
+            n = readInteger();
+            printInteger(luythua(n,x));
+        }
+        

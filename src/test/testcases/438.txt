@@ -1,0 +1,7 @@
+foo: function void(a : integer,b :integer){
+            if(a > 1){
+                b = b *2;
+            }else foo(a + 1,b);
+        }
+        main: function void(){
+            foo(1,2.0)}

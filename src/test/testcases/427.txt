@@ -1,0 +1,8 @@
+
+        main: function void(){
+            i : float;
+            for( i = 0, i < 3, i +1){
+                printInteger(i);
+            }
+        }
+        

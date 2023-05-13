@@ -1,0 +1,12 @@
+a: array[5] of integer = {1, 2, 3, 4, 5};
+                func: function integer(low: integer, high: integer) {
+                    if ((low < 0) || (high < 0) || (low >= 5) || (high >= 5))
+                        return -1;
+    
+                    sum = 0;
+                    for (i = low, i <= high, i+1)
+                        sum = sum + a[i];
+                    return sum;
+                }
+        }
+        

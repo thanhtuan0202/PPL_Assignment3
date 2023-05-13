@@ -1,0 +1,7 @@
+
+        foo : function auto (a : integer,b : array[3] of auto){
+            b[0] = a;
+        }
+        main : function void(){
+            foo(3,3);
+        }

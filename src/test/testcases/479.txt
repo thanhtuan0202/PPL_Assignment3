@@ -1,0 +1,22 @@
+
+        glo : integer = 3;
+        goo : function integer(inherit m : integer, inherit n: integer){
+            
+        }
+        foo: function auto (a : integer, b : integer) inherit goo{
+            super(m,n);
+            if( m > n){
+                ret : integer = 1;
+                
+            }
+            else{
+                ret : integer = 0;
+            }
+            return ret;
+        }
+        main: function void (){
+            a = 3;
+            foo(1,2);
+            a : integer;
+        }
+        

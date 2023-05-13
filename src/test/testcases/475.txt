@@ -1,0 +1,8 @@
+ain: function void(){
+            name: string;
+            writeString("Enter your name");
+            name = readString();
+            greeting = "Hello!";
+            printString(greeting :: name);
+        }
+        

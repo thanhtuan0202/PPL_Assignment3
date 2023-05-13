@@ -1,0 +1,10 @@
+
+        foo: function auto (a : integer, b : integer) inherit goo{
+            
+        }
+        main: function void (){
+            a = 3;
+            foo(1,2);
+            a : integer;
+        }
+        

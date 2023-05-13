@@ -1,0 +1,19 @@
+
+         fib: function integer(inherit n : auto,inherit m:float){
+            
+        }
+        foo: function integer(a : integer) inherit fib{
+            super(1,2);
+            b : integer = n; 
+            if ( n > 1){
+                return 10;
+            }
+            else{
+                return n;
+            }
+            super(1,2);
+            return a;
+        }
+        main: function void(){
+            fib(true);}
+        

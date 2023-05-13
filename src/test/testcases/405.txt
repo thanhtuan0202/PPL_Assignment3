@@ -1,0 +1,6 @@
+a : integer = 3;
+        foo: function auto(){}
+        main : function void(){
+            a = 4;
+            b = a;
+        }

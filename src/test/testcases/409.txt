@@ -1,0 +1,6 @@
+a : integer = 3;
+        foo: function auto(){}
+        main : function void(){
+            a : array[3] of boolean = {true,true,false};
+            b : integer = foo();
+        }

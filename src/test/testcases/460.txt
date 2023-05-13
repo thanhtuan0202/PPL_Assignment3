@@ -1,0 +1,12 @@
+
+        test: function auto(a : integer){}
+        foo: function boolean(a : integer,b : auto){
+            a = 0;
+            while( test(a)){
+                a = a + 1;
+            }
+        }
+        main: function void(){
+            a : string = test(3);
+        }
+        

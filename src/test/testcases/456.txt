@@ -1,0 +1,14 @@
+
+        foo: function boolean(a : integer,b : auto){
+            if (b){
+                return b;
+            }
+            else{
+                return n;
+            }
+            super(1,2);
+            return a;
+        }
+        main: function void(){
+            fib(true);}
+        

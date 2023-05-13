@@ -1,0 +1,9 @@
+
+        foo : function auto (a : auto){
+            b: auto = 3;
+            a = 1.0;
+            return b;
+        }
+        main : function void(){
+            a : boolean = foo(1.0);
+        }

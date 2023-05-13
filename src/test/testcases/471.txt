@@ -1,0 +1,16 @@
+main: function void() {
+            exit: boolean;
+            choice: string;
+            writeString("Do you want to exit?");
+            writeString("Enter Y/y for Yes, N/n for No.");
+            choice = readString();
+            if((choice == "y") || (choice == "Y")){
+                exit = true;
+            }   
+            else exit = false;
+            if(exit == true){
+                printString("Goodbye!");
+            }
+            else printString("Please continue.");
+        }
+        

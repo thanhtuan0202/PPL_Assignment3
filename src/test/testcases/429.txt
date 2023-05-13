@@ -1,0 +1,9 @@
+
+        main: function void(){
+            i : auto;
+            for( i = 0, i < 3, i +1){
+                printInteger(i);
+            }
+            a : integer = i + 23;
+        }
+        

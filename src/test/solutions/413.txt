@@ -1,0 +1,1 @@
+Type mismatch in statement: IfStmt(Id(b), BlockStmt([CallStmt(printInteger, Id(b))]), BlockStmt([CallStmt(printBoolean, Id(c))]))

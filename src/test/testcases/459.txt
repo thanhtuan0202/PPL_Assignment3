@@ -1,0 +1,15 @@
+
+        test: function auto(a : integer){}
+        foo: function boolean(a : integer,b : auto){
+            if (b){
+                return b;
+            }
+            else{
+                return test(1);
+            }
+            return false;
+        }
+        main: function void(){
+            a : string = test(3);
+        }
+        

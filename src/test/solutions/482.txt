@@ -1,0 +1,1 @@
+Type mismatch in statement: AssignStmt(Id(arr), FuncCall(foo, [IntegerLit(1), IntegerLit(2)]))

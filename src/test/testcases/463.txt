@@ -1,0 +1,12 @@
+        main: function void(){
+            n : integer;
+            i: integer = 0;
+            sum : float = 0.0;
+            n = readInteger();
+            while(i < n){
+                sum = sum + 1 / i;
+                i = i + 1;
+            }
+            writeFloats(sum);
+        }
+        

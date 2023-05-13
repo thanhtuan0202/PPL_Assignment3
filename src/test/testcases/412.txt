@@ -1,0 +1,13 @@
+
+        main : function void(){
+            a : array[3] of auto = {true,true,false};
+            b : integer = 4;
+            c : boolean = a[1];
+            if(a[1]){
+                printInteger(b);
+            }
+            else{
+                printBoolean(c);
+            }
+            b : auto = 4;
+        }

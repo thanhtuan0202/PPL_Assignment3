@@ -1,0 +1,7 @@
+a : integer = 3;
+        foo: function auto(){}
+        main : function void(){
+            a : boolean = true;
+            b : integer = foo();
+        }
+        a:float  = 1.0;

@@ -1,0 +1,12 @@
+ffunc: function void() {
+            a : integer = 2;
+            b : integer= 3;
+            if (a > b) {
+                writeString("a is greater than b");
+            } else if (a < b) {
+                writeString("a is less than b");
+            } else {
+                writeString("a is equal to b");
+            }
+        }
+        
